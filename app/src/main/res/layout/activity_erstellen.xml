@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="540dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/icon"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="150dp"
+        android:text="Titel der Activity"
+
+        />
+    <EditText
+        android:id="@+id/ActivityName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="60dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="120dp"
+        android:text="Beschreibe deine Activity"
+        />
+
+    <EditText
+        android:id="@+id/Beschreibung"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="60dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aktuelle Position"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="60dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Position wählen"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="220dp"
+        />
+    <CheckBox
+        android:id="@+id/checkboxAktuellePosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="100dp"
+        android:contentDescription="aktuelle Position"
+        />
+    <CheckBox
+        android:id="@+id/checkboxPositionWaehlen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="470dp"
+        android:contentDescription="Position wählen"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Position manuell eingeben"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="120dp"
+        />
+    <EditText
+        android:id="@+id/xPosition"
+        android:layout_width="100dp"
+        android:height="50dp"
+        android:layout_marginTop="555dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:text="xpos"
+        />
+    <EditText
+        android:id="@+id/yPosition"
+        android:layout_width="100dp"
+        android:height="50dp"
+        android:layout_marginTop="555dp"
+        android:layout_marginLeft="250dp"
+        android:layout_height="wrap_content"
+        android:text="ypos"
+    />
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/buttonErstellen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="150dp"
+        android:text="Erstellen"
+        />
+
+</RelativeLayout>
